@@ -1,0 +1,30 @@
+.jumbotron{
+    background-color: white;
+}
+@media (min-width: 768px) {
+ .jumbotron{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+ }
+}
+.jumbotron>h1{
+    font-weight: 300;
+}
+.jumbotron .container{
+    max-width: 640;
+}
+div.next{
+
+padding-left: 500px;
+margin-top: 60px;
+
+}
+
+div.btmain>a:hover {
+    transition: 1000ms;
+    padding: 10px 50px;
+    transform: translateY(-0px);
+    background-color: #54B4D3;
+    color: linear-gradient(to bottom, #54B4D3 5%, #54B4D3 100%);
+    border: solid 2px #54B4D3;
+}
