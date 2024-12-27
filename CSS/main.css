@@ -1,6 +1,26 @@
+body{
+    background: url("/images/background.jpg") #00000079 fixed;
+    background-blend-mode: multiply;
+    
+    
+    }
+
+
+
 .jumbotron{
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0);
+    color: #84A7A1;
 }
+.container>h1{
+font-size: 100px;
+}
+
+.container>p{
+font-size: 25px;
+color: #a30000;
+margin-top: -20px;
+}
+
 @media (min-width: 768px) {
  .jumbotron{
     padding-top: 6rem;
@@ -24,7 +44,8 @@ div.btmain>a:hover {
     transition: 1000ms;
     padding: 10px 50px;
     transform: translateY(-0px);
-    background-color: #54B4D3;
+    background-color: #2f7f99;
     color: linear-gradient(to bottom, #54B4D3 5%, #54B4D3 100%);
     border: solid 2px #54B4D3;
 }
+
