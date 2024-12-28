@@ -7,10 +7,16 @@
 
 .infoimage  {
     float: left;
-    width: 30%;
+    width: 400px;
+    height: 175px;
     margin-right: 20px;
+    border-radius: 8px;
 }
 .txt  {
     overflow: hidden;
     text-align: left;
+}
+
+.discord{
+    color: rgb(146, 147, 235);
 }
