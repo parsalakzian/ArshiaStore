@@ -1,3 +1,4 @@
+// Dokme Haye Cart Ha (Informations)
 const buttons = document.querySelectorAll('.card button');
 
 buttons.forEach(button => {
