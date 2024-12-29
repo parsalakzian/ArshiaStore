@@ -1,9 +1,28 @@
+body{
+  background-image: url('/images/bckgrnd.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.download{
+  width: 25px;
+  height: 25px;
+}
+
 .horror{
     margin-top: 100px;
     margin-bottom: 100px;
     width: 80%;
 
 }
+
+.yellowbtn:hover{
+  color: #fc910a;
+  background-color: #fc910a;
+  border-color: #000000;
+  text-decoration: none;}
+
 
 .infoimage  {
     float: left;
@@ -15,6 +34,7 @@
 .txt  {
     overflow: hidden;
     text-align: left;
+    color: #ffffff;
 }
 
 .discord{
@@ -31,11 +51,14 @@
 margin-left: auto;
 margin-right: auto;
 }
+.jumbotron{
+  background-color: #00000000;
+}
 
 /* cards Button */
 .button-4 {
   appearance: none;
-  background-color: #FAFBFC;
+  background-color: #ffe365;
   border: 1px solid rgba(27, 31, 35, 0.15);
   border-radius: 6px;
   box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
@@ -60,7 +83,7 @@ margin-right: auto;
 margin-left: 10px;}
 
 .button-4:hover {
-  background-color: #F3F4F6;
+  background-color: #fc910a;
   text-decoration: none;
   transition-duration: 0.1s;
 }
@@ -88,4 +111,10 @@ margin-left: 10px;}
 
 .button-4:-webkit-details-marker {
   display: none;
+}
+
+
+/* C O L O R S */
+.orangetxt{
+  color: #fc910a;
 }
